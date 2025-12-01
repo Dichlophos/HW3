@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+    <meta charset="utf-8"/>
+    <html lang="ru">
+	<link rel="stylesheet" href="Style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+    	<div class="app">
+    		<header>
+    			<h1>
+    				<i class="fa-solid fa-circle-check"></i>
+    				Мои задачи
+    			</h1>
+    			<p id="date"></p>
+    		</header>
+    		<div class="todo-input">
+    			<input type = "text" id = "task-input" placeholder="Что нужно сделать?"/>
+    			<button id="add-task">
+    				<i class="fas fa plus"></i>
+    			</button>
+    		</div>
+    		<div class="filters">
+    			<span class = "filter active" data-filter="all">Все</span>
+    			<span class = "filter" data-filter="active">Активные</span>
+    			<span class = "filter" data-filter="completed">Сделано</span>
+    		</div>
+    		<div class="todo-container">
+    			<u1 id = "todos-list">
+    			</u1>
+    			<div class="empty-state hidden">
+    				
+    				
+					
+    			</div>
+    		</div>
+    		<footer>
+    			<p id = "items-left" class="ItemsLeft">0 задач осталось</p>
+    			<button id="clear-completed" class="ClearCompleted">Очистить завершённые</button>
+			</footer>
+			<script src="script.js"></script>
+		</div>
+	</body>
+</html>
+
+
